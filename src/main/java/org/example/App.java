@@ -33,6 +33,55 @@ public class App {
     //System.out.println(number++);
     System.out.println(++number);
 
+
+    // comparison operators ( ==, !=, <, >, <=, >= )
+    int num1 = 10;
+    int num2 = 20;
+    boolean isEqual = num1 != num2;
+    System.out.println(isEqual);
+
+
+    // selections
+    /*
+    int testAge = 10;
+    if(testAge >= 18){
+      System.out.println("You can have a beer");
+    } else {
+      System.out.println("You are too young to drink beer!");
+    }
+    */
+
+    /*
+    // if() else if() statement
+    int testAge = 17;
+    //if(){}
+    if(testAge >= 18){
+      System.out.println("You can have a beer");
+    } else if (testAge < 18 && testAge >= 15){
+      System.out.println("You can drive a moped but not drink beer");
+    } else {
+      System.out.println("You are too young to drive a moped and drink beer");
+    }
+     */
+
+    double n1 = 5, n2 = 7, res = 0;
+    char operator = '*';
+    switch (operator){
+      case '+':
+        res = n1 + n2;
+        break;
+      case '-':
+        res = n1 - n2;
+        break;
+      case '*':
+        res = n1 * n2;
+        break;
+      default:
+        System.out.println("operator is not valid!");
+    }
+    System.out.println(res);
+
+
   }
 
 }
