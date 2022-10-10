@@ -3,11 +3,11 @@ package org.example;
 public class App {
 
   // step1 define a main method
-  public static void main(String[] args){
+  public static void main(String[] args) {
     // statement for printing the data
     System.out.println("Hello World!");
 
-    int age= 32;
+    int age = 32;
     System.out.println("Age: " + age);
 
     double salary = 30000.00;
@@ -18,7 +18,7 @@ public class App {
     boolean studentStatus = true;
     boolean accountStatus = false;
 
-    char a= 'a';
+    char a = 'a';
 
     double test;
     test = 12.22;
@@ -66,7 +66,7 @@ public class App {
 
     double n1 = 5, n2 = 7, res = 0;
     char operator = '*';
-    switch (operator){
+    switch (operator) {
       case '+':
         res = n1 + n2;
         break;
@@ -80,6 +80,16 @@ public class App {
         System.out.println("operator is not valid!");
     }
     System.out.println(res);
+
+
+    String name = "Mehrdad";
+    name = name.concat(" Javan");
+
+    // soutv +tab
+    System.out.println("name = " + name);
+
+    // ctrl + alt + L = reFormat code
+
 
 
   }
